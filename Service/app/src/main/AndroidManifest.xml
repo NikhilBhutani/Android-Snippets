@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="github.nikhilbhutani.services">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--
+         android:enabled is whether or not the service can be instantiated by the system
+         android:exported is whether or not components of other applications can invoke the service or iteract with it.
+         android:icon an icon representing a service.
+         android:isolatedProcess,if set true  this service will run under a special process that is isolated from the rest of the system and has no permissions of its own.
+          The only communication with it is through the Service API (binding and starting).
+        -->
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true"
+            />
+    </application>
+
+</manifest>
