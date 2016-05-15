@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AppIntro</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_1">First</string>
+    <string name="title_2">Second</string>
+    <string name="title_3">Third</string>
+    <string name="title_4">Fourth</string>
+    <string name="desc_1">Desc for first</string>
+    <string name="desc_2">Desc for second</string>
+    <string name="desc_3">Desc for third</string>
+    <string name="desc_4">Desc for fourth</string>
+</resources>
