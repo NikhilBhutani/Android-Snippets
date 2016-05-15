@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <!-- Single menu item
+        Set id, icon and Title for each menu item
+   -->
+    <group android:checkableBehavior="all">
+    <item android:id="@+id/menu_bookmark"
+        android:title="Bookmark" />
+
+    <item android:id="@+id/menu_save"
+        android:title="Save" />
+
+    <item android:id="@+id/menu_search"
+        android:title="Search" />
+
+    <item android:id="@+id/menu_share"
+        android:title="Share" />
+
+    <item android:id="@+id/menu_delete"
+        android:title="Delete" />
+
+    <item android:id="@+id/menu_preferences"
+        android:title="Preferences" />
+
+    </group>
+</menu>
