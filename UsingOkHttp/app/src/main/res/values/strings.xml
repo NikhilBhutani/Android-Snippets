@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">okhttp</string>
+    <string name="description">DownloadImage</string>
+</resources>
