@@ -20,6 +20,7 @@ public class MainActivity extends ListActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //adding the data source
         datasource = new CommentsDataSource(this);
         datasource.open();
 
