@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="github.nikhilbhutani.bluetooth.MainActivity">
+
+  <Button
+      android:id="@+id/on_button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="On"/>
+
+  <Button
+      android:id="@+id/off_button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Off"/>
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+
+   <Button
+       android:id="@+id/find"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Find Devices"/>
+
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="80dp" >
+
+     <Button
+         android:id="@+id/listButton"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="List of printers"/>
+
+<ListView
+    android:id="@+id/listView1"
+    android:layout_width="fill_parent"
+    android:layout_height="200dp" >
+
+</ListView>
+
+    </LinearLayout>
+
+
+
+    </LinearLayout>
