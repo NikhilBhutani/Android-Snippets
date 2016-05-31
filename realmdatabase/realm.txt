@@ -1,0 +1,26 @@
+What is Realm ?
+Realm is a third party database tool that claims to be a replacement for SQLite and coreData and attempts to simplify a issues encountered
+while writing SQLite such as boilerplate code, threading support and asynchronous queries. Currently, you can use Realm in your android app
+built using java, IOS using swift or objective C or a cross platform app built using React Native.
+
+Realm with java
+Models
+A model represents the data that you want to store, which in our case is the goal that a person wishes to achieve(What), the time it was added
+the target time, the target time or the time by which you would like to accomplish the goal(when) and whether the goal was marked complete
+by the user or not.
+
+In realm you don't need to create a table for the same while using Realm .
+1. Create a class in java
+2. Extend from RealmObject which essentially qualifies  your class  as being  the model.
+
+Zero Copy in Realm
+In simple words we have an item that has been repeated in sqlite it will stored in seperate times,
+where as in Realm you will have 1 main copy of the object and all the other objects will simply refer to that copy and its values
+
+Features :
+C++
+Column Oriented 
+cross platform
+Fasters Reads and writes 
+Queries> writes
+smaller file size
