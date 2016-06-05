@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "393599995103",
+    "firebase_url": "https://first-project-7c1ec.firebaseio.com",
+    "project_id": "first-project-7c1ec",
+    "storage_bucket": "first-project-7c1ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393599995103:android:ad925521742c2e94",
+        "android_client_info": {
+          "package_name": "github.nikhilbhutani.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "393599995103-6ho48mgad8m8926gr52v5lk428h4bcj4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCADUpCBUKQczlgZrAf_sf72FPUdbT92Yo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
