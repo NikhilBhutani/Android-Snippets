@@ -37,7 +37,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(MenuItem item) {
 
-                //Checking if the item is in checked state or not, if not make it in checked state
+                //Checking if the item is in checked state or not
+               // if not make it in checked state
                 if (item.isChecked())
                     item.setChecked(false);
                 else
