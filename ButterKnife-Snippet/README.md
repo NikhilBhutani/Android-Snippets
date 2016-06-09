@@ -1,6 +1,6 @@
-# Android Snippets
+# ButterKnife
 
-Curated code snippets for android, demonstrating necessary functionalities for android application development.
+It is a popular view injection library for android.
 
 # License
 
