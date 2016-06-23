@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="github.nikhilbhutani.usingactiveandroid.MainActivity">
+
+    <TextView
+        android:id="@+id/demo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ActiveAndroid Demo" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_below="@+id/demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name" />
+
+
+    <EditText
+        android:id="@+id/Organisation"
+        android:layout_below="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Organisation"
+        />
+
+    <Button
+        android:id="@+id/buttonToSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Organisation"
+        android:text="Save"
+        />
+
+
+    <Button
+        android:id="@+id/buttonToShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonToSave"
+        android:text="Show"
+        />
+
+</RelativeLayout>
