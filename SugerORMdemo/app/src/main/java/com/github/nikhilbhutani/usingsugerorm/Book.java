@@ -5,6 +5,8 @@ import com.orm.SugarRecord;
 /**
  * Created by Nikhil Bhutani on 7/27/2016.
  */
+ 
+ //Name of the table - Book
 public class Book extends SugarRecord {
 
     String title;
