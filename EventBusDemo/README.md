@@ -1,17 +1,15 @@
 # EventBus
 
-# License
+Eventbus is tiny library that streamlines the communication between the components without requiring components to explicitly register with one another. This makes data exchange seamless between components like Activites, Fragments, services and any kind of background threads easy.
 
-    Copyright 2016 Nikhil Bhutani
+### Features
 
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
+- decouples event senders and receivers
+- avoids complex and error prone dependencies and lifecycle issues
+- is tiny(~50k jar)
+- supports delivery threads, background threads
 
-    http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+# Credits & CopyRights
+  GreenRobot 
+  
+  More Info - https://github.com/greenrobot/EventBus
