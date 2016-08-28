@@ -16,7 +16,7 @@ Curated code snippets for android, demonstrating necessary functionalities for a
 - [CollapsingToolbar] (https://github.com/NikhilBhutani/Android-Snippets/tree/master/Collapsingtoolbar)
 - [CameraAnimationOnMap] (https://github.com/NikhilBhutani/Android-Snippets/tree/master/CameraAnimationOnMap)
 - [CustomView] (https://github.com/NikhilBhutani/Android-Snippets/tree/master/CustomView)
--
+
 
 
 # License
