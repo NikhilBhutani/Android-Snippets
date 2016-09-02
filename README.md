@@ -36,6 +36,7 @@ Curated code snippets for android, demonstrating necessary functionalities for a
 - [ReadingJSONfile] (https://github.com/NikhilBhutani/Android-Snippets/tree/master/ReadingJSONfile)
 - [RecylcerView] (https://github.com/NikhilBhutani/Android-Snippets/tree/master/Recyclerview)
 - [RuntimePermissions] (https://github.com/NikhilBhutani/Android-Snippets/tree/master/RuntimePermissions)
+- [RxJava-InAndroid] (https://github.com/NikhilBhutani/Android-Snippets/tree/master/RxJava-InAndroid)
 - [SQLite] (https://github.com/NikhilBhutani/Android-Snippets/tree/master/SQLite)
 - [ScrollableTabs] (https://github.com/NikhilBhutani/Android-Snippets/tree/master/ScrollableTabs)
 - [SearchView] (https://github.com/NikhilBhutani/Android-Snippets/tree/master/SearchView)
