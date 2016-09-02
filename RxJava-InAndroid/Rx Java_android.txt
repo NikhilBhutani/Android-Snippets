@@ -1,0 +1,47 @@
+Reactive Extension(Rx) is an api which focuses on aynchronous composition and manipulation of observable streams of data
+or events by using a combination of the Observer Pattern, Iterator pattern and features of functional programming. Handling
+real time data is common occurence, and having an efficient, clean and extensible approach to handling these scenarios is
+important. Using Observerables and operators to manipulate them, ReactiveX offers a composable and flexible API to create
+and act on streams of data while simplifying the normal concerns of aynchronous programming like thread creation 
+and concurency issues. 
+
+Reactive X kinda abstracts those concurrency issues.
+
+Rx Java : open source implementation of ReactiveX in java. The two main classes are observable and Subscriber. Observable 
+is a class that emits stream of events or data, and subscriber is a class that acts upon the emitted items. The standard 
+flow of observable is to emit or more items, and then complete it successfully or with an error. 
+
+An observable can have multiple Subscribers, and for each item emitted by observable, the item will be sent to the
+subscriber.onNext() method to be handled. Once the observable has finished emitting the items, it will call the subscriber
+.onCompleted() method or if in an case of error all will be brought down to subscriber.onError() method. 
+
+We should observe our observable on and what thread we should subscribe to it on. This is the function of RxJava's schedulers
+With any observable you can define two different threads that the observable will be operated upon. Using observable.observeOn()
+can define a thread that is used to monitor and check for newly emitted items from observable( the Subscriber’s onNext, onCompleted, 
+and onError methods execute on the observeOn() thread), and using Observable.observeOn() can define a thread that will run
+our observable's code (the long running operation)
+Rx java comes with out of the box schedulers to use with observables, such as Scheduler.io() (for block I/O operations),
+schedulers.computation(Computational work) and schedulers.newThread(creates new thread for work)
+
+ gradle build file: compile 'io.reactivex:rxandroid:1.0.1'.
+
+final Observable operationObservable = Observable.create(new Observable.OnSubscribe() {
+   @Override
+   public void call(Subscriber subscriber) {
+       subscriber.onNext(longRunningOperation());
+       subscriber.onCompleted();
+   }
+})
+       .subscribeOn(Schedulers.io()) // subscribeOn the I/O thread
+       .observeOn(AndroidSchedulers.mainThread()); // observeOn the UI Thread
+       
+PREVENTING LEAKS..
+One of the downsides previously mentioned with AsyncTasks is the ability to leak references to their enclosing 
+Activity/Fragment if proper care is not taken. Unfortunately, using RxJava will not magically alleviate memory 
+leak woes, but preventing them is fairly simple. When you call Observable.subscribe() a Subscription object is returned. 
+The Subscription class only has two methods, unsubscribe() and isUnsubscribed(). To prevent a possible memory leak, 
+in your Activity/Fragment’s onDestroy, check Subscription.isUnsubscribed() for if your Subscription is unsubscribed, 
+and if not call Subscription.unsubscribe(). Unsubscribing will stop notifications of items to your Subscriber and 
+will allow the garbage collection of all related objects, preventing any RxJava related memory leaks. 
+If you are dealing with multiple Observables and Subscribers, all Subscription objects can be added to a 
+CompositeSubscription and all unsubscribed at the same time using CompositeSubscription.unsubscribe().
