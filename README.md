@@ -25,6 +25,7 @@ Curated code snippets for android, demonstrating necessary functionalities for a
 - [GridView] (https://github.com/NikhilBhutani/Android-Snippets/tree/master/GridView)
 - [IntentService] (https://github.com/NikhilBhutani/Android-Snippets/tree/master/IntentService)
 - [Intents] (https://github.com/NikhilBhutani/Android-Snippets/tree/master/Intents)
+- JUnitTests (https://github.com/NikhilBhutani/Android-Snippets/tree/master/JunitTests)
 - [LeakCanarySnippet] (https://github.com/NikhilBhutani/Android-Snippets/tree/master/LeakCanarySnippet)
 - [ListView] (https://github.com/NikhilBhutani/Android-Snippets/tree/master/ListView)
 - [LoadingHTMLtoWEB] (https://github.com/NikhilBhutani/Android-Snippets/tree/master/LoadingHtmlToWeb)
