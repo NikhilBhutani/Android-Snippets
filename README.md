@@ -2,6 +2,9 @@
 
 Curated code snippets for android, demonstrating necessary functionalities for android application development.
 
+### Featured in
+[![AndroidDev Digest](https://img.shields.io/badge/AndroidDev%20Digest-%23109-red.svg)](https://www.androiddevdigest.com/digest-109/)
+
 ### Snippets
 
 - [ActivityLifeCycle] (https://github.com/NikhilBhutani/Android-Snippets/tree/master/ActivityLifecycle)
