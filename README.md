@@ -20,6 +20,7 @@ Curated code snippets for android, demonstrating necessary functionalities for a
 - [CameraAnimationOnMap] (https://github.com/NikhilBhutani/Android-Snippets/tree/master/CameraAnimationOnMap)
 - [CustomView] (https://github.com/NikhilBhutani/Android-Snippets/tree/master/CustomView)
 - [Dagger2] (https://github.com/NikhilBhutani/Android-Snippets/tree/master/Dagger2-Snippet)
+- [DBFlow-ORM] (https://github.com/NikhilBhutani/Android-Snippets/tree/master/DBFlow-ORM)
 - [EventBus Demo] (https://github.com/NikhilBhutani/Android-Snippets/tree/master/EventBusDemo)
 - [Expresso2.0-UiTesting] (https://github.com/NikhilBhutani/Android-Snippets/tree/master/Expresso2.0-UiTesting)
 - [Firebase] (https://github.com/NikhilBhutani/Android-Snippets/tree/master/Firebase)
