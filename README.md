@@ -41,6 +41,7 @@ Curated code snippets for android, demonstrating necessary functionalities for a
 - [NavigationDrawer] (https://github.com/NikhilBhutani/Android-Snippets/tree/master/NavigationDrawer)
 - [PicassoLibrary] (https://github.com/NikhilBhutani/Android-Snippets/tree/master/PicassoLibrary)
 - [ProgressDialog] (https://github.com/NikhilBhutani/Android-Snippets/tree/master/ProgressDialog)
+- [QRCode-Generate&Scan] (https://github.com/NikhilBhutani/Android-Snippets/tree/master/QRCode-Generate%26Scan)
 - [ReadingJSONfile] (https://github.com/NikhilBhutani/Android-Snippets/tree/master/ReadingJSONfile)
 - [RecylcerView] (https://github.com/NikhilBhutani/Android-Snippets/tree/master/Recyclerview)
 - [RuntimePermissions] (https://github.com/NikhilBhutani/Android-Snippets/tree/master/RuntimePermissions)
