@@ -39,6 +39,7 @@ Curated code snippets for android, demonstrating necessary functionalities for a
 - [LocationServicesSnippets] (https://github.com/NikhilBhutani/Android-Snippets/tree/master/LocationServicesSnippets)
 - [MapMarkers] (https://github.com/NikhilBhutani/Android-Snippets/tree/master/MapMarkers)
 - [NavigationDrawer] (https://github.com/NikhilBhutani/Android-Snippets/tree/master/NavigationDrawer)
+- [OnBoardingViewPager] (https://github.com/NikhilBhutani/Android-Snippets/tree/master/OnBoardingViewPager)
 - [PicassoLibrary] (https://github.com/NikhilBhutani/Android-Snippets/tree/master/PicassoLibrary)
 - [ProgressDialog] (https://github.com/NikhilBhutani/Android-Snippets/tree/master/ProgressDialog)
 - [QRCode-Generate&Scan] (https://github.com/NikhilBhutani/Android-Snippets/tree/master/QRCode-Generate%26Scan)
