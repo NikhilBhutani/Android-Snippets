@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/inicioItem"
+        android:icon="@drawable/ic_home"
+        />
+
+    <item
+        android:id="@+id/buscarItem"
+        android:icon="@drawable/ic_search"
+         />
+
+    <item
+        android:id="@+id/camaraItem"
+        android:icon="@drawable/ic_camera_alt"
+         />
+
+    <item
+        android:id="@+id/favoritosItem"
+        android:icon="@drawable/ic_favorite"
+       />
+
+    <item
+        android:id="@+id/perfilItem"
+        android:icon="@drawable/ic_person"
+         />
+
+</menu>
