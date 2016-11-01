@@ -14,6 +14,7 @@ Curated code snippets for android, demonstrating necessary functionalities for a
 - [BarcodeScanner-ZerbraCrossing Lib] (https://github.com/NikhilBhutani/Android-Snippets/tree/master/BarcodeScannerUsingZxing)
 - [BluetoothDevicesConnect] (https://github.com/NikhilBhutani/Android-Snippets/tree/master/BluetoothDevices)
 - [BottomNavigation] (https://github.com/NikhilBhutani/Android-Snippets/tree/master/BottomNavigation)
+- [BottomNavigationViewSample] (https://github.com/NikhilBhutani/Android-Snippets/tree/master/BottomNavigationViewSample)
 - [BoundServices] (https://github.com/NikhilBhutani/Android-Snippets/tree/master/BoundService)
 - [BuilderPattern] (https://github.com/NikhilBhutani/Android-Snippets/tree/master/BuilderPattern)
 - [Butterknife-Snippet] (https://github.com/NikhilBhutani/Android-Snippets/tree/master/ButterKnife-Snippet)
